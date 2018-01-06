@@ -15,7 +15,6 @@ yarn add @zerointermittency/utils
 - [cipher][cipher]
 - [country][country]
 - [flow][flow]
-- [jwt][jwt]
 - [logger][logger]
 - [object][object]
 - [random][random]
