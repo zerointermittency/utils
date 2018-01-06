@@ -1,0 +1,17 @@
+todo:
+
+ ☐ documentar utilidad para jwt
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ utilidad **random** para colores en hexadecimal y para valores con caracteres especiales o no, según se requiera @done (18-01-05 21:28)
+ ✔ Utilidades para manipular objeto (get, set, isNil, unset) @done (18-01-05 21:28)
+ ✔ Utilidades para manipular booleanos (valid, parse) @done (18-01-05 21:28)
+ ✔ Utilidad para validar que existan paths de un objeto y retornar aquellos que no existan @done (18-01-05 21:28)
+ ✔ Utilidad para obtener un listado de rutas a tributos de un objeto, que cumplan las condiciones de una función @done (18-01-05 21:28)
+ ✔ Utilidad para hacer registro de información basada en [winston][winston] (logger) @done (18-01-05 21:28)
+ ✔ Utilidad para estandarizar el trabajo con nombres y códigos de países basado en la [ISO - 3166][iso3166] @done (18-01-05 21:28)
+ ✔ Utilidad para ejecutar funciones en orden **waterfall** @done (18-01-05 21:28)
+ ✔ Encriptar utilizando el algoritmo [Bcrypt][Bcrypt]. @done (18-01-05 21:28)
+ ✔ Encriptar utilizando el algoritmo [AES o Advanced encryption standard][AES] @done (18-01-05 21:28)
+ ✔ Utilidad para realizar un **capitalize** (primer carácter en mayúscula) a una cadena de caracteres @done (18-01-05 21:27)
