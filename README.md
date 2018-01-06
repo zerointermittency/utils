@@ -15,6 +15,7 @@ yarn add @zerointermittency/utils
 - [cipher][cipher]
 - [country][country]
 - [flow][flow]
+- [jwt][jwt]
 - [logger][logger]
 - [object][object]
 - [random][random]
@@ -25,6 +26,14 @@ yarn add @zerointermittency/utils
 Todos los cambios importantes son escritos aquí. El Formato esta basado en [Keep a Changelog](http://keepachangelog.com/es-ES/1.0.0/)
 
 ### [Unreleased]
+
+### [1.0.2] - 2018-01-06
+#### Changed
+- Se agrega documentación para la utilidad jwt
+
+### [1.0.1] - 2018-01-05
+#### Fixed
+- Error en listado de utilidades en documentación (README.md)
 
 ### [1.0.0] - 2018-01-05
 #### Added
@@ -49,6 +58,7 @@ Todos los cambios importantes son escritos aquí. El Formato esta basado en [Kee
 [cipher]: docs/cipher.md
 [country]: docs/country.md
 [flow]: docs/flow.md
+[jwt]: docs/jwt.md
 [logger]: docs/logger.md
 [object]: docs/object.md
 [random]: docs/random.md
