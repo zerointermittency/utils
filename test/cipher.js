@@ -24,13 +24,19 @@ describe('cipher', () => {
     });
     it('bcrypt', (done) => {
         const bcrypt = utils.cipher.bcrypt,
-            value = 'foo',
-            encrypted = bcrypt.encrypt(value),
-            compareTrue = bcrypt.compare(value, encrypted),
-            compareFalse = bcrypt.compare('bar', encrypted);
-        _expect(encrypted.length).to.be.equal(60);
-        _expect(compareTrue).to.be.true;
-        _expect(compareFalse).to.be.false;
-        done();
+            value = 'foo';
+        bcrypt.encrypt(value)
+            .then((encrypted) => bcrypt.compare(value, encrypted))
+            .then((compare) => {
+                // console.log('#compare', require('util').inspect(compare, 0, 10, 1));
+                _expect(compare).to.be.true;
+                return bcrypt.encrypt(value);
+            })
+            .then((encrypted) => bcrypt.compare('kajshdksahkdh', encrypted))
+            .then((compare) => {
+                // console.log('#compare', require('util').inspect(compare, 0, 10, 1));
+                _expect(compare).to.be.false;
+                done();
+            });
     });
 });
