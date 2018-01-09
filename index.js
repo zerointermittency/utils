@@ -14,6 +14,7 @@ const fs = {
         '.nyc_output',
         '.git',
         'docs',
+        'benchmark',
     ];
 
 for (let i = files.length - 1; i >= 0; i--) {

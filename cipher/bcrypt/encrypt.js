@@ -1,8 +1,8 @@
 'use strict';
 
 const bcrypt = {
-    genSaltSync: require('bcrypt-nodejs').genSaltSync,
-    hashSync: require('bcrypt-nodejs').hashSync,
+    genSalt: require('bcrypt').genSalt,
+    hash: require('bcrypt').hash,
 };
 
-module.exports = (value) => bcrypt.hashSync(value, bcrypt.genSaltSync(5));
+module.exports = (value) => bcrypt.genSalt(5).then((salt) => bcrypt.hash(value, salt));

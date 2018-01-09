@@ -1,7 +1,7 @@
 'use strict';
 
 const bcrypt = {
-    compareSync: require('bcrypt-nodejs').compareSync,
+    compare: require('bcrypt').compare,
 };
 
-module.exports = (str, strBcrypt) => bcrypt.compareSync(str, strBcrypt);
+module.exports = (str, strBcrypt) => bcrypt.compare(str, strBcrypt);
