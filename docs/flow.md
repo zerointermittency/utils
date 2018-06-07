@@ -8,11 +8,11 @@ Con el objetivo de poder controlar el flujo en que se ejecutan varias funciones 
 
 ```javascript
 const utils = require('@zerointermittency/utils'),
-    waterfall = Nunchee.utils.waterfall;
+    waterfall = utils.flow.waterfall;
 
 // or
 
-const waterfall = require('@zerointermittency/utils/waterfall');
+const waterfall = require('@zerointermittency/utils/flow/waterfall');
 
 const functions = [
         (cb) => {
