@@ -2,6 +2,7 @@
 test
 benchmark
 .eslintrc.js
+coverage
 
 # Docs
 CHANGELOG.md

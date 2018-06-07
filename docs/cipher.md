@@ -3,12 +3,12 @@
 Métodos con el objetivo de (des)encriptar, comparar o encontrar.
 
 ```javascript
-const Nunchee = require('njs'),
-    cipher = Nunchee.utils.cipher;
+const utils = require('@zerointermittency/utils'),
+    cipher = utils.cipher;
 
 // or
 
-const cipher = require('njs/utils/cipher');
+const cipher = require('@zerointermittency/utils/cipher');
 ```
 
 ### Método "aes256.encrypt"

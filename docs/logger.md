@@ -3,14 +3,14 @@
 Método para el registro y/o despliegue de información
 
 ```javascript
-const Nunchee = require('njs'),
-    logger = Nunchee.utils.logger({
+const utils = require('@zerointermittency/utils'),
+    logger = utils.logger({
         level, transports: [{type, options}]
     });
 
 // or
 
-const logger = require('njs/utils/logger')({
+const logger = require('@zerointermittency/utils/logger')({
     level, transports: [{type, options}]
 });
 ```

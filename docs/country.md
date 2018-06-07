@@ -4,7 +4,7 @@ Métodos para el manejo de nombres y códigos de países estandarizados, utiliza
 
 ```javascript
 const utils = require('@zerointermittency/utils'),
-    country = Nunchee.utils.country;
+    country = utils.country;
 
 // recomendado
 
